@@ -1,0 +1,17 @@
+.sender{
+    margin-left: 50% !important;
+    width: 50%;
+    border-radius: 50px;
+    justify-content: space-between;
+    background-color: aliceblue !important;
+}
+.receiver{
+    margin-left: 0%;
+    width: 50%;
+    border-radius: 50px;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+#sent{
+    text-align: right;
+}

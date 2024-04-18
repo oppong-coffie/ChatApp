@@ -1,0 +1,43 @@
+body{
+    height: 100vh;
+    overflow-y: hidden;
+}
+#contact_pic, #contactname{
+ margin-right: 8%;
+}
+#contacts{
+    height: 100vh;
+    overflow-y: scroll;
+}
+#chatarea{
+    height: 72%;
+    overflow-y: scroll;
+}
+.hidden{
+    display: none !important;
+}
+#people{
+    text-align: center;
+}
+#message{
+    width: 50%;
+    border-radius: 40px;
+    display: block;
+    justify-content: space-between;
+}
+#message2{
+    margin-left: 50%;
+    width: 50%;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+.type input{
+    width: 100%;
+    border: none;
+    font-size: 23px;
+}
+.selected {
+    background-color: #ff0000; /* Change this to the desired background color */
+}
